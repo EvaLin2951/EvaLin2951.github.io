@@ -1,14 +1,10 @@
-- title: General Information
+- title: Contact Information
   type: map
   contents:
-    - name: Full Name
-      value: Yifan(Eva) Lin
     - name: Phone
       value: +1 (438) 822-0216
     - name: Email
       value: evalin2951@gmail.com
-    - name: Languages
-      value: English, French, Mandarin
 
 - title: Education
   type: time_table
