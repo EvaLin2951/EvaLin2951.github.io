@@ -16,7 +16,7 @@ profile:
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m a third-year undergraduate student at [McGill University](https://www.mcgill.ca/), majoring in **Computer Science** and **Statistics**.
+I’m a third-year undergraduate student at [McGill University](https://www.mcgill.ca/), majoring in **Computer Science** and **Statistics** 👩🏻‍💻.
 <br><br>
 I thrive on creating functional and impactful projects, demonstrated through my **Midjourney & DALL-E Clone** using the MERN stack, OpenAI's DALL-E, and Cloudinary. Additionally, in the **Slack CoinBot** project, I utilized Python, Bolt (Slack API SDK), and MongoDB for command processing and data management. Last summer, I independently developed an **e-Commerce Advertising Data Analysis Dashboard**, where I conducted data analysis, and integrated technical approaches with market and product insights.
 <br><br>
