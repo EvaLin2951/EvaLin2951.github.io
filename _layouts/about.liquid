@@ -72,5 +72,15 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+
+    <!-- highlights -->
+    {% if page.highlights %}
+      <h2>
+        <a href="{{ '/highlights/' | relative_url }}" style="color: inherit">highlights</a>
+      </h2>
+      {% include highlights.liquid %}
+    {% endif %}
+
+
   </article>
 </div>
