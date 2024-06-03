@@ -14,6 +14,7 @@ profile:
 # news: true # includes a list of news items
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+highlights: true
 ---
 
 I’m a third-year undergraduate student at [McGill University](https://www.mcgill.ca/), majoring in **Computer Science** and **Statistics** 👩🏻‍💻.
