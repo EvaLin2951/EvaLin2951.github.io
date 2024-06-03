@@ -75,12 +75,26 @@ layout: default
 
     <!-- highlights -->
     {% if page.highlights %}
-      <h2>
-        <a href="{{ '/highlights/' | relative_url }}" style="color: inherit">highlights</a>
-      </h2>
+      <h2>highlights</h2>
       {% include highlights.liquid %}
     {% endif %}
 
+    <!-- education -->
+    {% if page.education %}
+      <h2>education</h2>
+      {% include education.liquid %}
+    {% endif %}
 
+    <!-- experience -->
+    {% if page.experience %}
+      <h2>experience</h2>
+      {% include experience.liquid %}
+    {% endif %}
+
+    <!-- projects -->
+    {% if page.projects %}
+      <h2>projects</h2>
+      {% include projects.liquid %}
+    {% endif %}
   </article>
 </div>
