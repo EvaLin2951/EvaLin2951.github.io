@@ -71,7 +71,7 @@ blockquote {
 
 /* If you want to reset the highlight for the entire table on hover */
 table:hover {
-  background-color: transparent; /* Or any other color you want */
+  background-color: transparent !important; /* Or any other color you want */
 }
 
 // Projects
