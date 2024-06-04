@@ -205,6 +205,9 @@ blockquote {
 @media (prefers-color-scheme: dark) {
   .news-item {
     background-color: transparent; /* or any specific color you want */
+    &:hover {
+      background-color: transparent; /* No highlight color on hover in dark mode */
+    }
   }
 }
 
