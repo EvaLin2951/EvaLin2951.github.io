@@ -55,7 +55,32 @@
               {% endif %}
             </a>
           </li>
+          <!-- Highlights -->
+          <li class="nav-item {% if page.title=='1' %}active{% endif %}">
+            <a class="nav-link" href='#highlights'>
+              highlights             
+            </a>
+          </li>
+          <!-- Education -->
+          <li class="nav-item {% if page.title=='1' %}active{% endif %}">
+            <a class="nav-link" href='#education'>
+              education             
+            </a>
+          </li>           
 
+          <!-- Projects -->
+          <li class="nav-item {% if page.title=='1' %}active{% endif %}">
+            <a class="nav-link" href='#projects'>
+              projects
+            </a>
+          </li>
+
+          <!-- Experience -->
+          <li class="nav-item {% if page.title=='1' %}active{% endif %}">
+            <a class="nav-link" href='#experience'>
+              experience             
+            </a>
+          </li>
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
