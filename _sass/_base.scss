@@ -4,8 +4,6 @@
 
 // Typography
 
-@import "font-awesome/fontawesome";
-
 p,
 h1,
 h2,
@@ -163,6 +161,7 @@ blockquote {
     border: 1px solid var(--global-divider-color) !important;
   }
 }
+
 // Citation
 
 .citation,
@@ -225,7 +224,6 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  font-size: 1.2rem;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
@@ -261,8 +259,6 @@ blockquote {
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    font-size: 1.2rem;
-    font-weight: bold;
     &:hover {
       color: var(--global-hover-color);
     }
