@@ -69,6 +69,13 @@ blockquote {
   font-size: 1.2rem;
 }
 
+
+/* If you want to reset the highlight for the entire table on hover */
+table:hover {
+    background-color: transparent; /* Or any other color you want */
+}
+
+
 // Projects
 .custom_projects {
   text-align: left;
@@ -205,9 +212,6 @@ blockquote {
 @media (prefers-color-scheme: dark) {
   .news-item {
     background-color: transparent; /* or any specific color you want */
-    &:hover {
-      background-color: transparent; /* No highlight color on hover in dark mode */
-    }
   }
 }
 
