@@ -11,3 +11,4 @@ _posts/2015-10-20-math.md
 **/*.liquid
 _pages/about.md
 assets/json/resume.json
+_config.yml
