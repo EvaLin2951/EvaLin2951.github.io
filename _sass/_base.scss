@@ -69,9 +69,9 @@ blockquote {
   font-size: 1.2rem;
 }
 
-/* If you want to reset the highlight for the entire table on hover */
-table:hover {
-  background-color: transparent !important; /* Or any other color you want */
+/* Remove the hover background color from table rows */
+table tr:hover {
+    background-color: transparent !important;
 }
 
 // Projects
