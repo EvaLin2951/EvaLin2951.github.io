@@ -1,5 +1,4 @@
-<script>
-  $(document).ready(function(){
+$(document).ready(function(){
     $('.nav-link').click(function(event){
       event.preventDefault();
       var target = $(this).attr('href');
@@ -8,4 +7,4 @@
       }, 600);
     });
   });
-</script>
+
