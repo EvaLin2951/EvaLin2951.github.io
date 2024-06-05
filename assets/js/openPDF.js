@@ -1,0 +1,1 @@
+function openPDF(n){window.open(n,"_blank")}
