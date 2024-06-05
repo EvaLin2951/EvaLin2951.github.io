@@ -56,28 +56,43 @@
             </a>
           </li>
           <!-- Highlights -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href='#highlights'>
-              highlights             
-            </a>
+          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
+            <a class="nav-link" href=" ">
+              highlights
+              {% if page.title == '1' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a >
           </li>
+          
           <!-- Education -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href='#education'>
-              education             
-            </a>
-          </li>           
-          <!-- Experience -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href='#experience'>
-              experience             
-            </a>
+          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
+            <a class="nav-link" href="#education">
+              education
+              {% if page.title == '1' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a >
           </li>
+          
           <!-- Projects -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href='#projects'>
+          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
+            <a class="nav-link" href="#projects">
               projects
-            </a>
+              {% if page.title == '1' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a >
+          </li>
+          
+          <!-- Experience -->
+          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
+            <a class="nav-link" href="#experience">
+              experience
+              {% if page.title == '1' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a >
           </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
