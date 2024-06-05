@@ -57,37 +57,20 @@
           </li>
           <!-- Highlights -->
           <li class="nav-item">
-            <a class="nav-link" href="#highlights">Highlights</a>
+            <a class="nav-link" href="#highlights">highlights</a>
           </li>
           <!-- Education -->
-          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
-            <a class="nav-link" href="#education">
-              education
-              {% if page.title == '1' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a >
-          {{ render 'includes/education' }} </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">education</a>
+          </li>
           <!-- Experience -->
-          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
-            <a class="nav-link" href="#experience">
-              experience
-              {% if page.title == '1' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a >
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">experience</a>
           </li>
           <!-- Projects -->
-          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
-            <a class="nav-link" href="#projects">
-              projects
-              {% if page.title == '1' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a >
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">projects</a>
           </li>
-
-
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
