@@ -56,15 +56,9 @@
             </a>
           </li>
           <!-- Highlights -->
-          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
-            <a class="nav-link" href=" ">
-              highlights
-              {% if page.title == '1' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a >
+          <li class="nav-item">
+            <a class="nav-link" href="#highlights">Highlights</a>
           </li>
-          
           <!-- Education -->
           <li class="nav-item {% if page.title == '1' %}active{% endif %}">
             <a class="nav-link" href="#education">
@@ -73,18 +67,7 @@
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a >
-          </li>
-          
-          <!-- Projects -->
-          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
-            <a class="nav-link" href="#projects">
-              projects
-              {% if page.title == '1' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a >
-          </li>
-          
+          {{ render 'includes/education' }} </li>
           <!-- Experience -->
           <li class="nav-item {% if page.title == '1' %}active{% endif %}">
             <a class="nav-link" href="#experience">
@@ -94,6 +77,17 @@
               {% endif %}
             </a >
           </li>
+          <!-- Projects -->
+          <li class="nav-item {% if page.title == '1' %}active{% endif %}">
+            <a class="nav-link" href="#projects">
+              projects
+              {% if page.title == '1' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a >
+          </li>
+
+
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
